@@ -1,0 +1,49 @@
+---
+# Division Command
+- name: Starbase 10
+  registry: SB10
+  section: Division Command
+  class: Starbase
+# Patrol
+- name: USS Aquarius
+  registry: NCC-97033
+  section: Patrol Craft
+  class: Aquarius
+- name: USS Armidale
+  registry: tba
+  section: Patrol Craft
+  class: Wallace
+- name: USS Broome
+  registry: tba
+  section: Patrol Craft
+  class: Wallace
+- name: USS Padre
+  registry: tba
+  section: Patrol Craft
+  class: Wallace
+- name: USS Vashon
+  registry: tba
+  section: Patrol Craft
+  class: Wallace
+- name: USS Mersey
+  registry: tba
+  section: Patrol Craft
+  class: Wallace
+- name: USS Medway
+  registry: tba
+  section: Patrol Craft
+  class: Wallace
+# Support
+- name: USS Kenneth
+  registry: tba
+  section: Support
+  class: Raven Class (Medical Varient)
+- name: USS Mangus
+  registry: tba
+  section: Support
+  class: Raven Class
+- name: SS Kulgah's Pride
+  registry: tba
+  section: Support
+  class: Antares Class
+---

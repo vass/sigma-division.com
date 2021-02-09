@@ -1,0 +1,39 @@
+---
+layout: default
+title: Fleet
+permalink: /fleet/
+mainmenu: true
+---
+<div class="container">
+    {% for section in site.data.fleetsec %}
+    {% if section.section != "Division Command" %}
+    <hr>
+    {% endif %}
+    <div class="row">
+        <div class="py-1 col text-center"><h3>{{ section.section }}</h3></div>
+    </div>
+    <div class="row">
+        {% for simm in site.data.fleet %}
+            {% if simm.section == section.section %}
+              <div class="col-12 col-md-6 col-lg-6 col-xl-4">
+                <div class="card m-1">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ simm.name }}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">{{ simm.registry }}</h6>
+                        <p class="card-text"><strong>Class: </strong> {{ simm.class }}<br>
+                        {% for crew in site.data.crew %}
+                          {% if crew.ship == simm.name %}
+                            {% if crew.display == true %}
+                              <strong>{{ crew.position }}:</strong> {{ crew.rank }} {{ crew.name }}<br>
+                            {% endif %}
+                          {% endif %}
+                        {% endfor %}
+                        </p>
+                    </div>
+                </div>
+              </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
