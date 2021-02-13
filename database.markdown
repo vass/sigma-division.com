@@ -11,3 +11,4 @@ Listed below are some helpful links for life as a crew member on the USS Aquariu
 * [Rules](rules/)
 * [Ranks](ranks/)
 * [Aquarius Class Specs](aquarius/)
+* [Wallace Class Specs](wallace/)
