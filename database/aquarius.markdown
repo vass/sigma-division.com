@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Rules
+title:  Aquarius Class Ship Specifications
 mainmenu: false
 ---
 # Aquarius Class Specs
