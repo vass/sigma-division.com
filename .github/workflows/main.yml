@@ -32,7 +32,6 @@ jobs:
           server: ${{ secrets.ftp_hostname }}
           username: ${{ secrets.ftp_usename }}
           password: ${{ secrets.ftp_password }}
-          protocol: ftps
           local-dir: ./_site/
           server-dir: ${{ secrets.ftp_dir }}
           state-name: ../.ftp-deploy-sync-state.json
