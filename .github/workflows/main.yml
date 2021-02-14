@@ -1,0 +1,37 @@
+on:
+  push:
+    branches:
+    - master
+  
+  workflow_dispatch:
+
+name: Build and Deploy
+jobs:
+  jekyll:
+    name: Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get latest code
+        uses: actions/checkout@v2
+
+      - name: GH Cache
+        uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
+      - name: Jekyll Build
+        uses: lemonarc/jekyll-action@1.0.0
+
+      - name: Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+          server: ${{ secrets.ftp_hostname }}
+          username: ${{ secrets.ftp_usename }}
+          password: ${{ secrets.ftp_password }}
+          protocol: ftps
+          local-dir: ./_site/
+          server-dir: ${{ secrets.ftp_dir }}

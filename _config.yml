@@ -32,7 +32,7 @@ permalink: pretty
 plugins:
   - jekyll-feed
 
-exclude: ["*.sass", "*.scss", ".gitignore", ".ftppass", "/.sass-cache", "bootstrap", "package.json", "package-lock.json", "Gruntfile.js", ".ftppass", "package"]
+exclude: ["*.sass", "*.scss", ".gitignore", ".ftppass", "/.sass-cache", "bootstrap", "package.json", "package-lock.json", "package", "README.md", "/.github"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
