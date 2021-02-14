@@ -3,12 +3,21 @@
 - name: Starbase 10
   registry: SB10
   section: Division Command
+  subtitle: Division Base of Operations
   class: Starbase
+  crew:
+    - character: augustusgardoff
+      position: Division Commanding Officer
+    - character: robertcartright
+      position: Base Commanding Officer
 # Patrol
 - name: USS Aquarius
   registry: NCC-97033
   section: Patrol Craft
   class: Aquarius
+  crew:
+    - character: dustincummins
+      position: Commanding Officer
 - name: USS Armidale
   registry: tba
   section: Patrol Craft
@@ -34,16 +43,24 @@
   section: Patrol Craft
   class: Wallace
 # Support
+- name: USS Oberon
+  registry: tba
+  section: Support
+  subtitle: Division Support Frigate
+  class: Steamrunner
 - name: USS Kenneth
   registry: tba
   section: Support
+  subtitle: Emergancy Medical Response
   class: Raven Class (Medical Varient)
+  crew:
+    - character: sabra
+      position: Chief Medical Officer
+    - character: manguslacher
+      position: Officer of the Deck
 - name: USS Mangus
   registry: tba
   section: Support
+  subtitle: Division Science Vessel
   class: Raven Class
-- name: SS Kulgah's Pride
-  registry: tba
-  section: Support
-  class: Antares Class
 ---
