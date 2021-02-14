@@ -30,12 +30,14 @@ mainmenu: true
                         <strong>Crew:</strong>
                         <ul class="list-group text-center">
                           {% for crew in simm.crew %}
+                          {% if crew.fdisplay == true %}
                           {% assign crew_member = site.pages | find: "bioslug", crew.character %}
                           <li class="list-group-item">
                             {{ crew_member.ranktitle }} {{ crew_member.title }}<br>
                             {{ crew.position }}<br>
                             <img src="//img.sigma-division.com/ranks/{{ crew_member.rankimg}}" alt="{{ crew_member.ranktitle }} Rank Insignia" width="140">
                           </li>
+                          {% endif %}
                           {% endfor %}
                         </ul>
                         {% endif %}

@@ -8,8 +8,10 @@
   crew:
     - character: augustusgardoff
       position: Division Commanding Officer
+      fdisplay: true
     - character: robertcartright
       position: Base Commanding Officer
+      fdisplay: true
 # Patrol
 - name: USS Aquarius
   registry: NCC-97033
@@ -18,6 +20,7 @@
   crew:
     - character: dustincummins
       position: Commanding Officer
+      fdisplay: true
 - name: USS Armidale
   registry: tba
   section: Patrol Craft
@@ -56,8 +59,10 @@
   crew:
     - character: sabra
       position: Chief Medical Officer
+      fdisplay: true
     - character: manguslacher
       position: Officer of the Deck
+      fdisplay: true
 - name: USS Mangus
   registry: tba
   section: Support
