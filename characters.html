@@ -16,10 +16,16 @@ mainmenu: true
         {% for character in characters %}
         <div class="col">
             <div class="card">
+                {% if character.rankimg == nil %}
+                <img src="//img.sigma-division.com/ranks/w-blank.png" alt="White Blank Rank Insignia" class="card-img-top">
+                {% else %}
                 <img src="//img.sigma-division.com/ranks/{{ character.rankimg }}" alt="{{ character.ranktitle }} Insignia" class="card-img-top">
+                {% endif %}
                 <div class="card-body">
                     <h5 class="card-title">{{ character.title }}</h5>
+                    {% if character.ranktitle != nil %}
                     <p class="card-title"><strong>Rank: </strong>{{ character.ranktitle }}</p>
+                    {% endif %}
                     <p class="card-title"><a href="{{ character.bioslug }}/" class="btn btn-primary">Biography</a></p>
                 </div>
             </div>
