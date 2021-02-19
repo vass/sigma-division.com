@@ -2,17 +2,16 @@
 layout: page
 title:  Chase Stevens
 ranktitle: Petty Officer 1st Class
-rankimg: r-e6.png
+rankimg: y-e6.png
 mainmenu: false
 bioslug: chasestevens
-posting: aquarius
 ---
 # {{ page.title }}
 
 ---
 
 <div style="float:right">
-<img src="/characters/chasestevens.png" alt="Chase Stevens" width="140" class="img-fluid" /><br />
+<img src="//img.sigma-division.com/characters/chasestevens.png" alt="Chase Stevens" width="140" class="img-fluid" /><br />
 <img src="//img.sigma-division.com/ranks/{{ page.rankimg }}" width="140" class="img-fluid" alt="{{ page.ranktitle }} Rank Insigna" />  
 </div>
 
