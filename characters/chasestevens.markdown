@@ -5,6 +5,7 @@ ranktitle: Petty Officer 1st Class
 rankimg: y-e6.png
 mainmenu: false
 bioslug: chasestevens
+avatar: chasestevens.png
 ---
 # {{ page.title }}
 

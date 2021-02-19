@@ -23,7 +23,11 @@ mainmenu: true
         {% assign character = site.pages | find: "bioslug", crew.character %}
         <div class="col">
             <div class="card h-100">
+                {% if character.avatar %}
+                <img src="//img.sigma-division.com/characters/{{ character.avatar }}" alt="{{ character.title }} Avatar" class="card-img-top">
+                {% else %}
                 <img src="//img.sigma-division.com/characters/blank_profile.png" alt="Blank Character Avatar" class="card-img-top">
+                {% endif %}
                 <div class="card-body">
                     <h5 class="card-title">{{ character.title }}</h5>
                     {% if character.rankimg %}
