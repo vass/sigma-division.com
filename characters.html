@@ -37,7 +37,9 @@ mainmenu: true
                         </small>
                     </p>
                     {% endif %}
+                    {% if character.biodisplay != false %}
                     <p class="card-text"><a href="{{ character.bioslug }}/" class="btn btn-primary">Biography</a></p>
+                    {% endif %}
                 </div>
             </div>
         </div>
@@ -91,7 +93,9 @@ mainmenu: true
                             </small>
                         </p>
                         {% endif %}
+                        {% if character.biodisplay != false %}
                         <p class="card-text"><a href="{{ character.bioslug }}/" class="btn btn-primary">Biography</a></p>
+                        {% endif %}
                     </div>
                 </div>
             </div>

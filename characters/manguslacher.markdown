@@ -5,6 +5,7 @@ mainmenu: false
 ranktitle: Chief Petty Officer
 rankimg: r-e7.png
 bioslug: manguslacher
+biodisplay: false
 ---
 # {{ page.title }}
 **Rank:** {{ page.ranktitle }}  

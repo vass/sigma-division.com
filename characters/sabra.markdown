@@ -5,6 +5,7 @@ mainmenu: false
 ranktitle: Commander
 rankimg: t-o5.png
 bioslug: sabra
+biodisplay: false
 ---
 # {{ page.title }}
 **Rank:** {{ page.ranktitle }}  

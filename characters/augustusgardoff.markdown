@@ -5,6 +5,7 @@ mainmenu: false
 ranktitle: Commodore
 rankimg: r-a1.png
 bioslug: augustusgardoff
+biodisplay: false
 ---
 # {{ page.title }}
 **Rank:** {{ page.ranktitle }}  
