@@ -4,6 +4,7 @@ title:  Dan Taylor
 ranktitle: Admiral (Retired)
 rankimg: r-a4.png
 mainmenu: false
+bioslug: dantaylor
 ---
 # {{ page.title }}
 **Rank:** {{ page.ranktitle }}  
