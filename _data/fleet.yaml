@@ -21,6 +21,9 @@
     - character: dustincummins
       position: Commanding Officer
       fdisplay: true
+    - character: chasestevens
+      position: Chief Engineer
+      fdisplay: false
 - name: USS Armidale
   registry: tba
   section: Patrol Craft

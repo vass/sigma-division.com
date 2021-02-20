@@ -5,6 +5,7 @@ mainmenu: false
 ranktitle: Commander
 rankimg: r-o5.png
 bioslug: robertcartright
+biodisplay: false
 ---
 # {{ page.title }}
 **Rank:** {{ page.ranktitle }}  

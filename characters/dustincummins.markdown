@@ -5,7 +5,6 @@ mainmenu: false
 ranktitle: Lieutenant Commander
 rankimg: r-o4.png
 bioslug: dustincummins
-posting: aquarius
 ---
 # {{ page.title }}
 **Rank:** {{ page.ranktitle }}  
