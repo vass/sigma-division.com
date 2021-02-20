@@ -18,11 +18,11 @@ mainmenu: true
             <h2>{{ ship.name }}</h2>
         </div>
     </div>
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-6 row-cols-xxl-7 g-4">
         {% for crew in ship.crew %}
         {% assign character = site.pages | find: "bioslug", crew.character %}
         <div class="col">
-            <div class="card h-100">
+            <div class="card h-100 text-center">
                 {% if character.avatar %}
                 <img src="//img.sigma-division.com/characters/{{ character.avatar }}" alt="{{ character.title }} Avatar" class="card-img-top">
                 {% else %}
@@ -56,7 +56,7 @@ mainmenu: true
             <h2>Other Characters</h2>
         </div>
     </div>
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-6 row-cols-xxl-7 g-4">
         {% assign characters = site.pages | where_exp: "item", "item.bioslug != nil" %}
         {% assign no_unassigned_characters = true %}
 
@@ -82,8 +82,12 @@ mainmenu: true
             {% if character_assigned == false %}
             {% assign no_unassigned_characters = false %}
             <div class="col">
-                <div class="card h-100">
+                <div class="card h-100 text-center">
+                    {% if character.avatar %}
+                    <img src="//img.sigma-division.com/characters/{{ character.avatar }}" alt="{{ character.title }} Avatar" class="card-img-top">
+                    {% else %}
                     <img src="//img.sigma-division.com/characters/blank_profile.png" alt="Blank Character Avatar" class="card-img-top">
+                    {% endif %}
                     <div class="card-body">
                         <h5 class="card-title">{{ character.title }}</h5>
                         {% if character.rankimg %}
@@ -106,6 +110,6 @@ mainmenu: true
             {% endif %}
         {% endfor %}
         {% if no_unassigned_characters == true %}
-        <div class="col"><em>There are no other characters at this stage.</em></div>
+        <span class="w-100"><em>There are no other characters at this stage.</em></span>
         {% endif %}
     </div>
