@@ -1,12 +1,12 @@
 ---
 layout: page
-title:  Augustus Gardoff
+title:  Liam Brighton
 mainmenu: false
-ranktitle: Commodore
+ranktitle: Petty Officer 3rd Class
 rankbackground: red
 ranktype: naval
-rankpaygrade: a1
-bioslug: augustusgardoff
+rankpaygrade: e4
+bioslug: liambrighton
 biodisplay: false
 ---
 # {{ page.title }}

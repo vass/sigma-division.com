@@ -3,7 +3,9 @@ layout: page
 title:  Sabra
 mainmenu: false
 ranktitle: Commander
-rankimg: t-o5.png
+rankbackground: teal
+ranktype: naval
+rankpaygrade: o5
 bioslug: sabra
 biodisplay: false
 ---

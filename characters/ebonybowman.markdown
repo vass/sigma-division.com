@@ -1,12 +1,12 @@
 ---
 layout: page
-title:  Augustus Gardoff
+title:  Ebony Bowman
 mainmenu: false
-ranktitle: Commodore
+ranktitle: Chief Petty Officer
 rankbackground: red
 ranktype: naval
-rankpaygrade: a1
-bioslug: augustusgardoff
+rankpaygrade: e7
+bioslug: ebonybowman
 biodisplay: false
 ---
 # {{ page.title }}

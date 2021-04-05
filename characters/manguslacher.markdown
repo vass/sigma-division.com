@@ -3,7 +3,9 @@ layout: page
 title:  Mangus Lacher
 mainmenu: false
 ranktitle: Chief Petty Officer
-rankimg: r-e7.png
+rankbackground: red
+ranktype: naval
+rankpaygrade: e7
 bioslug: manguslacher
 biodisplay: false
 ---

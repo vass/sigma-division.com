@@ -71,3 +71,77 @@
 .bg-lightgrey {
     background: rgba(0, 0, 0, 0.03);
 }
+
+.manifest-card {
+    flex-direction: row !important;
+    background-color: black !important;
+    flex: 1 1 auto;
+}
+
+.manifest-card > .card-body {
+    padding: 0.75rem 0.75rem;
+}
+
+.manifest-avatar, .manifest-rank {
+    display: flex;
+    flex-grow: 0 !important;
+    align-items: center;
+}
+
+.manifest-avatar-img {
+    width: 0;
+    height: 0;
+    background-color: white;
+    background-position: top center;
+    background-size: cover;
+    border-radius: 100%;
+    padding: 25px;
+}
+
+.manifest-red {
+    background-image: url('//img.sigma-division.com/ranks/base/red.png');
+    background-size: cover;
+    background-position: top right;
+    color: white;
+}
+
+.manifest-yellow {
+    background-image: url('//img.sigma-division.com/ranks/base/yellow.png');
+    background-size: cover;
+    background-position: top right;
+    color: white;
+}
+
+.manifest-teal {
+    background-image: url('//img.sigma-division.com/ranks/base/teal.png');
+    background-size: cover;
+    background-position: top right;
+    color: white;
+}
+
+.manifest-black {
+    background-image: url('//img.sigma-division.com/ranks/base/black.png');
+    background-size: cover;
+    background-position: top right;
+    color: white;
+}
+
+.manifest-green {
+    background-image: url('//img.sigma-division.com/ranks/base/green.png');
+    background-size: cover;
+    background-position: top right;
+    color: white;
+}
+
+.manifest-white {
+    background-image: url('//img.sigma-division.com/ranks/base/white.png');
+    background-size: cover;
+    background-position: top right;
+}
+
+.manifest-rom {
+    background-image: url('//img.sigma-division.com/ranks/base/rom.png');
+    background-size: cover;
+    background-position: top right;
+    color: white;
+}

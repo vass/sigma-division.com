@@ -1,12 +1,12 @@
 ---
 layout: page
-title:  Augustus Gardoff
+title:  Alicia Bird
 mainmenu: false
-ranktitle: Commodore
-rankbackground: red
+ranktitle: Crewman
+rankbackground: yellow
 ranktype: naval
-rankpaygrade: a1
-bioslug: augustusgardoff
+rankpaygrade: e3
+bioslug: aliciabird
 biodisplay: false
 ---
 # {{ page.title }}

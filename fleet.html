@@ -32,10 +32,23 @@ mainmenu: true
                           {% for crew in simm.crew %}
                           {% if crew.fdisplay == true %}
                           {% assign crew_member = site.pages | find: "bioslug", crew.character %}
+                          {% assign rankimg = "" %}
+                          {% case crew_member.rankbackground %}
+                              {% when "red" %}
+                                {% assign rankimg = "r-" | append: crew_member.rankpaygrade | append: ".png" %}
+                              {% when "yellow" %}
+                                {% assign rankimg = "y-" | append: crew_member.rankpaygrade | append: ".png" %}
+                              {% when "teal" %}
+                                {% assign rankimg = "t-" | append: crew_member.rankpaygrade | append: ".png" %}
+                              {% when "green" %}
+                                {% assign rankimg = "g-" | append: crew_member.rankpaygrade | append: ".png" %}
+                              {% else %}
+                                {% assign rankimg = "w-" | append: crew_member.rankpaygrade | append: ".png" %}
+                          {% endcase %}
                           <li class="list-group-item">
                             {{ crew_member.ranktitle }} {{ crew_member.title }}<br>
                             {{ crew.position }}<br>
-                            <img src="//img.sigma-division.com/ranks/{{ crew_member.rankimg}}" alt="{{ crew_member.ranktitle }} Rank Insignia" width="140">
+                            <img src="//img.sigma-division.com/ranks/{{ rankimg }}" alt="{{ crew_member.ranktitle }} Rank Insignia" width="140">
                           </li>
                           {% endif %}
                           {% endfor %}

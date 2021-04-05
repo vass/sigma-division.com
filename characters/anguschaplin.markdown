@@ -1,12 +1,12 @@
 ---
 layout: page
-title:  Augustus Gardoff
+title:  Angus Chaplin
 mainmenu: false
-ranktitle: Commodore
+ranktitle: Master Warrant Officer
 rankbackground: red
 ranktype: naval
-rankpaygrade: a1
-bioslug: augustusgardoff
+rankpaygrade: w3
+bioslug: anguschaplin
 biodisplay: false
 ---
 # {{ page.title }}

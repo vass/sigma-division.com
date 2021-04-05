@@ -3,7 +3,9 @@ layout: page
 title:  Robert Cartright
 mainmenu: false
 ranktitle: Commander
-rankimg: r-o5.png
+rankbackground: red
+ranktype: naval
+rankpaygrade: o5
 bioslug: robertcartright
 biodisplay: false
 ---

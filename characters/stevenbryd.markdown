@@ -1,12 +1,12 @@
 ---
 layout: page
-title:  Augustus Gardoff
+title:  Steven Bryd
 mainmenu: false
-ranktitle: Commodore
-rankbackground: red
+ranktitle: Chief Petty Officer
+rankbackground: yellow
 ranktype: naval
-rankpaygrade: a1
-bioslug: augustusgardoff
+rankpaygrade: e7
+bioslug: stevenbryd
 biodisplay: false
 ---
 # {{ page.title }}

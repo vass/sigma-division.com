@@ -1,12 +1,12 @@
 ---
 layout: page
-title:  Augustus Gardoff
+title:  T'Janna
 mainmenu: false
-ranktitle: Commodore
-rankbackground: red
-ranktype: naval
-rankpaygrade: a1
-bioslug: augustusgardoff
+ranktitle: Commander
+rankbackground: rom
+ranktype: rom
+rankpaygrade: o6
+bioslug: tjanna
 biodisplay: false
 ---
 # {{ page.title }}

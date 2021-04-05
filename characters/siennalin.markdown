@@ -1,12 +1,12 @@
 ---
 layout: page
-title:  Augustus Gardoff
+title:  Sienna Lin
 mainmenu: false
-ranktitle: Commodore
+ranktitle: Petty Officer 1st Class
 rankbackground: red
 ranktype: naval
-rankpaygrade: a1
-bioslug: augustusgardoff
+rankpaygrade: e6
+bioslug: siennalin
 biodisplay: false
 ---
 # {{ page.title }}
