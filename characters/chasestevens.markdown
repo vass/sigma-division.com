@@ -2,7 +2,9 @@
 layout: page
 title:  Chase Stevens
 ranktitle: Petty Officer 1st Class
-rankimg: y-e6.png
+rankbackground: yellow
+ranktype: naval
+rankpaygrade: e6
 mainmenu: false
 bioslug: chasestevens
 avatar: chasestevens.png

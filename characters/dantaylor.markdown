@@ -2,7 +2,9 @@
 layout: page
 title:  Dan Taylor
 ranktitle: Admiral (Retired)
-rankimg: r-a4.png
+rankbackground: red
+ranktype: naval
+rankpaygrade: a4
 mainmenu: false
 ---
 # {{ page.title }}

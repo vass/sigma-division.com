@@ -3,7 +3,9 @@ layout: page
 title:  Dustin Cummins
 mainmenu: false
 ranktitle: Lieutenant Commander
-rankimg: r-o4.png
+rankbackground: red
+ranktype: naval
+rankpaygrade: o4
 bioslug: dustincummins
 ---
 # {{ page.title }}

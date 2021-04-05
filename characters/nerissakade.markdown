@@ -1,12 +1,13 @@
 ---
 layout: page
-title:  Augustus Gardoff
+title:  Nerissa Kade
 mainmenu: false
-ranktitle: Commodore
+ranktitle: Senior Chief Petty Officer
 rankbackground: red
 ranktype: naval
-rankpaygrade: a1
-bioslug: augustusgardoff
+rankpaygrade: e8
+bioslug: nerissakade
+avatar: nerissakade.jpg
 biodisplay: false
 ---
 # {{ page.title }}

@@ -1,12 +1,13 @@
 ---
 layout: page
-title:  Augustus Gardoff
+title:  Curtis Va'mush
 mainmenu: false
-ranktitle: Commodore
+ranktitle: Captain
 rankbackground: red
 ranktype: naval
-rankpaygrade: a1
-bioslug: augustusgardoff
+rankpaygrade: o6
+bioslug: curtisvamush
+avatar: curtisvamush.jpg
 biodisplay: false
 ---
 # {{ page.title }}
