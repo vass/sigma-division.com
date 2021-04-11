@@ -18,12 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Federation Patrol Division Sigma
+title: Sigma Division
 email: vass@sigma-division.com
 description: >-
-  The Federation Patrol Division Sigma is a 2393, Star Trek Alternative Universe meta-verse foreshadowing the events of Star Trek: Picard.
-  Based out of Starbase 10, near the Romulan Neutral Zone, the Patrol Division protects the Federation Borders in a volitile area of space
-  as the effects of the collapse of the Romulan Star Empire are felt.
+  Sigma Division is a colaborative, multi-sim, Star Trek Alternative Universe meta-verse, set in the year 2393 and foreshadowing the events of Star Trek: Picard.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
