@@ -8,6 +8,7 @@ ranktype: naval
 rankpaygrade: o5
 bioslug: sabra
 biodisplay: false
+status: npc
 ---
 # {{ page.title }}
 **Rank:** {{ page.ranktitle }}  

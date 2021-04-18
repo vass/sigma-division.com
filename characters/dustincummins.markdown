@@ -7,6 +7,7 @@ rankbackground: red
 ranktype: naval
 rankpaygrade: o4
 bioslug: dustincummins
+status: pc
 ---
 # {{ page.title }}
 **Rank:** {{ page.ranktitle }}  

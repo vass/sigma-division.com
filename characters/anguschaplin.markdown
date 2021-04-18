@@ -8,6 +8,7 @@ ranktype: naval
 rankpaygrade: w3
 bioslug: anguschaplin
 biodisplay: false
+status: npc
 ---
 # {{ page.title }}
 **Rank:** {{ page.ranktitle }}  

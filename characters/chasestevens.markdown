@@ -8,6 +8,7 @@ rankpaygrade: e6
 mainmenu: false
 bioslug: chasestevens
 avatar: chasestevens.png
+status: pc
 ---
 # {{ page.title }}
 

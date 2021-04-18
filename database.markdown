@@ -3,6 +3,7 @@ layout: page
 title: Database
 permalink: /database/
 mainmenu: true
+fa: fa-database
 ---
 
 # Database

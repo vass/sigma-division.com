@@ -9,9 +9,16 @@
 }
 
 #homeHero h1 {
-    font-family: 'Permanent Marker', cursive;
-    transform: rotate(-9deg);
+    font-family: 'Libre Baskerville', serif;
 }
+
+.hero-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
 
 @supports (-webkit-overflow-scrolling: touch) {
     #homeHero {
@@ -61,7 +68,7 @@
 }
 
 #pageHero h1 {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .footer {
@@ -76,6 +83,7 @@
     flex-direction: row !important;
     background-color: black !important;
     flex: 1 1 auto;
+    justify-content: center;
 }
 
 .manifest-card > .card-body {
@@ -86,6 +94,8 @@
     display: flex;
     flex-grow: 0 !important;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .manifest-avatar-img {

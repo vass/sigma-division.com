@@ -2,6 +2,7 @@
 layout: page
 title:  Fulson Miller
 mainmenu: false
+status: npc
 ---
 # {{ page.title }}
 ---
