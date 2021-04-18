@@ -7,7 +7,7 @@ fa: fa-database
 ---
 
 # Database
-Listed below are some helpful links for life as a crew member on the USS Aquarius
+Listed below are some helpful links for life in the Sigmaverse
 
 * [Rules](rules/)
 * [Federation Ranks](ranks/federation/)
