@@ -8,6 +8,7 @@ ranktype: naval
 rankpaygrade: e7
 bioslug: stevenbryd
 biodisplay: false
+status: npc
 ---
 # {{ page.title }}
 **Rank:** {{ page.ranktitle }}  

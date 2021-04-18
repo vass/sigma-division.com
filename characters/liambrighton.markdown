@@ -8,6 +8,7 @@ ranktype: naval
 rankpaygrade: e4
 bioslug: liambrighton
 biodisplay: false
+status: npc
 ---
 # {{ page.title }}
 **Rank:** {{ page.ranktitle }}  

@@ -8,6 +8,7 @@ ranktype: naval
 rankpaygrade: a1
 bioslug: augustusgardoff
 biodisplay: false
+status: npc
 ---
 # {{ page.title }}
 **Rank:** {{ page.ranktitle }}  

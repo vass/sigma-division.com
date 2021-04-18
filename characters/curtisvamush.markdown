@@ -9,6 +9,7 @@ rankpaygrade: o6
 bioslug: curtisvamush
 avatar: curtisvamush.jpg
 biodisplay: false
+status: pc
 ---
 # {{ page.title }}
 **Rank:** {{ page.ranktitle }}  

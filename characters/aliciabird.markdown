@@ -8,6 +8,7 @@ ranktype: naval
 rankpaygrade: e3
 bioslug: aliciabird
 biodisplay: false
+status: npc
 ---
 # {{ page.title }}
 **Rank:** {{ page.ranktitle }}  

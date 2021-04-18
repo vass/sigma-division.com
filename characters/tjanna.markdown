@@ -8,6 +8,7 @@ ranktype: rom
 rankpaygrade: o6
 bioslug: tjanna
 biodisplay: false
+status: pc
 ---
 # {{ page.title }}
 **Rank:** {{ page.ranktitle }}  

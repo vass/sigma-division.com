@@ -3,13 +3,13 @@ layout: default
 title: Dramatis personae
 permalink: /characters/
 mainmenu: true
+fa: fa-user-tie
 ---
 <div class="container py-3">
     <div class="row">
         <div class="col">
             <h1>Dramatis personae</h1>
             <p>These are the characters you will find within the Sigma Division Metaverse.</p>
-            <p><smaller><i>This list does not differenciate between Player Characters and Non Player Characters, for that please see the individual game sites</i>.</smaller></p>
         </div>
     </div>
     {% for ship in site.data.fleet %}
@@ -19,7 +19,7 @@ mainmenu: true
             <h2>{{ ship.name }}</h2>
         </div>
     </div>
-    <div class="row row-cols-1 row-cols-md-2 gy-4">
+    <div class="row row-cols-1 row-cols-lg-2 gy-4">
         {% for crew in ship.crew %}
         {% assign character = site.pages | find: "bioslug", crew.character %}
         {% if character.rankbackground %}
@@ -33,21 +33,24 @@ mainmenu: true
         {% endif %}
                 <div class="card-body manifest-avatar">
                     {% if character.avatar %}
-                    <div class="manifest-avatar-img" style="background-image: url(//img.sigma-division.com/characters/{{ character.avatar }});"></div>
+                    <div class="manifest-avatar-img mb-2 mb-sm-0" style="background-image: url(//img.sigma-division.com/characters/{{ character.avatar }});"></div>
                     {% else %}
-                    <div class="manifest-avatar-img" style="background-image: url(//img.sigma-division.com/characters/blank_profile.png);"></div>
+                    <div class="manifest-avatar-img mb-2 mb-sm-0" style="background-image: url(//img.sigma-division.com/characters/blank_profile.png);"></div>
+                    {% endif %}
+                    {% if character.ranktitle %}
+                    <img src="//img.sigma-division.com/ranks/overlay/{{ character.ranktype}}/{{character.rankpaygrade}}.png" width="50" class="d-flex d-sm-none">
                     {% endif %}
                 </div>
-                <div class="card-body px-0">
+                <div class="card-body ps-0 pe-md-0 pe-auto">
                     {% if character.biodisplay %}
-                    <h5 class="card-title"><a href="{{ character.bioslug }}/" class="link-{{ linkcolor }}">{{ character.title }}</a></h5>
+                    <h5 class="card-title"><a href="{{ character.bioslug }}/" class="link-{{ linkcolor }}">{{ character.title }}</a>{% if character.status == "npc" %} <span class="badge rounded-pill bg-secondary">NPC</span>{% endif %}</h5>
                     {% else %}
-                    <h5 class="card-title">{{ character.title }}</h5>
+                    <h5 class="card-title">{{ character.title }}{% if character.status == "npc" %} <span class="badge rounded-pill bg-secondary">NPC</span>{% endif %}</h5>
                     {% endif %}
                     <h6 class="card-subtitle">{{ crew.position }}</h6>
                 </div>
                 {% if character.ranktitle %}
-                <div class="card-body ps-0 manifest-rank">
+                <div class="card-body ps-0 manifest-rank d-none d-sm-flex">
                     <span class="card-text">
                         <img src="//img.sigma-division.com/ranks/overlay/{{ character.ranktype}}/{{character.rankpaygrade}}.png" width="144">
                     </span>
@@ -98,28 +101,31 @@ mainmenu: true
             <div class="col">
                 <div class="card manifest-card manifest-white">
             {% endif %}
-                    <div class="card-body manifest-avatar">
-                        {% if character.avatar %}
-                        <div class="manifest-avatar-img" style="background-image: url(//img.sigma-division.com/characters/{{ character.avatar }});"></div>
-                        {% else %}
-                        <div class="manifest-avatar-img" style="background-image: url(//img.sigma-division.com/characters/blank_profile.png);"></div>
-                        {% endif %}
-                    </div>
-                    <div class="card-body px-0">
-                        {% if character.biodisplay %}
-                        <h5 class="card-title"><a href="{{ character.bioslug }}/" class="link-{{ linkcolor }}">{{ character.title }}</a></h5>
-                        {% else %}
-                        <h5 class="card-title">{{ character.title }}</h5>
-                        {% endif %}
-                        <h6 class="card-subtitle">{{ crew.position }}</h6>
-                    </div>
-                    {% if character.ranktitle %}
-                    <div class="card-body ps-0 manifest-rank">
-                        <span class="card-text">
-                            <img src="//img.sigma-division.com/ranks/overlay/{{ character.ranktype}}/{{character.rankpaygrade}}.png" width="144">
-                        </span>
-                    </div>
+                <div class="card-body manifest-avatar">
+                    {% if character.avatar %}
+                    <div class="manifest-avatar-img mb-2 mb-sm-0" style="background-image: url(//img.sigma-division.com/characters/{{ character.avatar }});"></div>
+                    {% else %}
+                    <div class="manifest-avatar-img mb-2 mb-sm-0" style="background-image: url(//img.sigma-division.com/characters/blank_profile.png);"></div>
                     {% endif %}
+                    {% if character.ranktitle %}
+                    <img src="//img.sigma-division.com/ranks/overlay/{{ character.ranktype}}/{{character.rankpaygrade}}.png" width="50" class="d-flex d-sm-none">
+                    {% endif %}
+                </div>
+                <div class="card-body ps-0 pe-md-0 pe-auto">
+                    {% if character.biodisplay %}
+                    <h5 class="card-title"><a href="{{ character.bioslug }}/" class="link-{{ linkcolor }}">{{ character.title }}</a>{% if character.status == "npc" %} <span class="badge rounded-pill bg-secondary">NPC</span>{% endif %}</h5>
+                    {% else %}
+                    <h5 class="card-title">{{ character.title }}{% if character.status == "npc" %} <span class="badge rounded-pill bg-secondary">NPC</span>{% endif %}</h5>
+                    {% endif %}
+                    <h6 class="card-subtitle">{{ crew.position }}</h6>
+                </div>
+                {% if character.ranktitle %}
+                <div class="card-body ps-0 manifest-rank d-none d-sm-flex">
+                    <span class="card-text">
+                        <img src="//img.sigma-division.com/ranks/overlay/{{ character.ranktype}}/{{character.rankpaygrade}}.png" width="144">
+                    </span>
+                </div>
+                {% endif %}
                 </div>
             </div>
             {% endif %}

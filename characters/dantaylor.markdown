@@ -6,6 +6,7 @@ rankbackground: red
 ranktype: naval
 rankpaygrade: a4
 mainmenu: false
+status: npc
 ---
 # {{ page.title }}
 **Rank:** {{ page.ranktitle }}  

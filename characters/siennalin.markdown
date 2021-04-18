@@ -8,6 +8,7 @@ ranktype: naval
 rankpaygrade: e6
 bioslug: siennalin
 biodisplay: false
+status: npc
 ---
 # {{ page.title }}
 **Rank:** {{ page.ranktitle }}  

@@ -9,6 +9,7 @@ rankpaygrade: e8
 bioslug: nerissakade
 avatar: nerissakade.jpg
 biodisplay: false
+status: pc
 ---
 # {{ page.title }}
 **Rank:** {{ page.ranktitle }}  
