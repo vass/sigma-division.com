@@ -27,6 +27,9 @@
     - character: chasestevens
       position: Chief Engineer
       fdisplay: false
+    - character: sandythomson
+      position: Tactical/Security Officer
+      fdisplay: false
 - name: USS Armidale
   registry: tba
   section: Romulan Border Patrol
